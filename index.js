@@ -360,6 +360,7 @@ class MudiExperiencePDP {
 
         try {
             await this.conectServer(`${skuNumber}`);
+            if( !this.dataServer){return}
             this.createStyles();
             const btn3D = new BTN3D(skuNumber, this.colorClient).create(
                 { data: this.dataServer }
