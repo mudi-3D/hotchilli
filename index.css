@@ -239,6 +239,33 @@
 }
 
 @media screen and (max-width:500px) {
+.btnsMudiContainer {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    right: 18%;
+    top: 17.5%;
+    z-index: 10;
+    scale: 0.65;
+}
+
+.tooltipMudi {
+    background-color: #1a1e25;
+    color: white;
+    font-family: sans-serif;
+    width: 360px;
+    font-size: 14px;
+    padding: 9px 13px;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    right: 103%;
+    filter: drop-shadow(3px 5px 5px rgba(10, 10, 10, 0.196));
+
+}
+
+    
     .iframeMudi3D {
         background-color: white;
         position: relative;
@@ -258,5 +285,10 @@
         cursor: pointer;
         filter: drop-shadow(3px 5px 5px rgba(10, 10, 10, 0.196));
     }
+
+
+
+
+    
 
 }
