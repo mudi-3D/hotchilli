@@ -359,7 +359,7 @@ class MudiExperiencePDP {
         this.fatherContainer = fatherContainer
 
         try {
-            await this.conectServer(`${skuNumber}_CEL`);
+            await this.conectServer(`${skuNumber}`);
             this.createStyles();
             const btn3D = new BTN3D(skuNumber, this.colorClient).create(
                 { data: this.dataServer }
